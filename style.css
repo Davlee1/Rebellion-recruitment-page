@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Josefin+Sans&display=swap');
+
+html,body{
+  margin: 0px;
+  font-size: 16px;
+}
+h1, h2{
+  font-family: 'Audiowide', sans-serif;
+  margin: 10px;
+  font-size: 2.5rem;
+  text-align: center;
+  
+}
+p1{
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 1.15rem;
+}
+p, figcaption{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 5px;
+  font-size: .9rem;
+}
+
+#page-wrapper{
+  font-family: 'Audiowide', sans-serif;
+  margin: 0px;
+  
+}
+
+.button{
+  width:80px;
+  height:29px;
+  font-family: 'Audiowide', sans-serif;
+  font-size: .9rem;
+  color:hsl(0, 100%, 100%);
+  background: hsl(0, 100%, 35%);
+  border-radius:5px;
+  margin: 10px 0px 20px;
+  transition: background 1s ease-out 50ms;
+}
+.button:hover{
+  background: hsl(0, 100%, 60%);
+}
+
+#header{
+    width: 100vm;
+    position: sticky;
+    top: 0;
+    
+    color: hsl(0, 0%, 100%);
+    background-image:linear-gradient(to right,hsl(0, 0%, 10%), hsl(0, 0%, 20%));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1px 10px;
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color:hsl(0, 100%, 60%);       
+}
+#nav-bar{
+  position: absolute;
+  right: 5px;
+  margin: 0px;
+  
+}
+nav > ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+
+[id="email"]{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: .9rem;
+  width: 300px;
+  height: 22px;
+  margin: 10px 5px 20px;
+}
+#header-img{
+  font-size: 4rem;
+  width: 90px;
+  height: auto;
+  margin: 10px 30px;
+}
+
+.nav-link{
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  font-size:1.4rem;
+  padding: 40px;
+  transition: color .5s ease-out 50ms;
+}
+
+.nav-link:hover{
+  color:  hsl(0, 100%, 65%);
+}
+
+#main-content{
+  background-color: hsla(206, 0%, 87%, .75);
+  width:60%;
+  margin: 0px auto 0px;
+  padding: 40px 60px 20px;
+}
+
+#form{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin:0px 0px 30px;
+}
+
+#img-battle img{
+  align-text: center;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+figure figcaption {
+  text-align: center;}
+
+
+
+#The-Cause,#Careers,#Benefits{
+  scroll-margin-top: 115px;
+}
+
+#C-Options{
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+}
+.Optionbox{
+  text-align: center;
+  background:hsla(206, 0%, 90%, .8);
+  width: 60%;
+  border-style: solid;
+  border-width: 1px;
+  border-color:hsl(0, 0%, 0%);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background .5s ease-out 50ms;
+}
+
+.Optionbox:hover{
+  background:hsl(0, 100%, 100%);
+}
+
+.cardfoto{
+  width:90%;
+  height: 175px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#benefits-list{
+  margin: 0px auto;
+  width: 20%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#video{
+  margin: 10px auto 0px;
+  width:70%;
+  height: 25em;
+}
+#video-wrapper{
+  text-align: center;
+}
+
+#footer{
+
+  display: flex;
+  justify-content: flex-end;
+  height: 60px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(206, 0%, 20%);
+  border-top-style: solid;
+  border-width: 5px;
+  border-color:hsl(0, 100%, 60%);
+  margin: 0px;
+  padding: 30px 50px 10px;
+}
+
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 10px;
+  }
+
+
+  #title{
+    color: hsla(0,0%,0%,0);
+  }
+  .nav-link{
+    padding: 15px;
+    
+  }
+  #header-img{
+  width: 20%;
+  height: auto;
+  margin: 10px 10px;   
+}
+  
+  #nav-bar{
+  position: absolute;
+  right: 5px;
+  margin: 0px;
+  }
+  
+  #main-content{
+  background-color: hsla(206, 0%, 87%, .75);
+  width:80%;
+  margin: 0px auto 0px;
+  padding: 40px 30px 20px;
+}
+  
+  #C-Options{
+  width: 90%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+  .Optionbox{
+  width: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color:hsl(0, 0%, 0%);
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  }
+  
+  #benefits-list{
+  width: 40%;
+  margin: 25px auto;
+}
+  
+  #video{
+  margin: 50px auto 0px;
+  width:100%;
+  height: 15em;
+}
+}/*end of MedQuery */
